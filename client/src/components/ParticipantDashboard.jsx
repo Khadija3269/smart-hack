@@ -14,6 +14,7 @@ import {
   dismissNotification,
 } from "@/lib/notifications";
 
+
 function ParticipantDashboard() {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("Your Hackathons");
